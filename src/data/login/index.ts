@@ -1,0 +1,6 @@
+export const heading = 'login.heading'
+export const subheading = 'login.subheading'
+export const emailInputLabel = 'login.emailInputLabel'
+export const passwordInpputLabel = 'login.passwordInputLabel'
+export const registerButtonLabel = 'login.registerButtonLabel'
+export const loginButtonLabel = 'login.loginButtonLabel'

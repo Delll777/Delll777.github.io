@@ -1,0 +1,76 @@
+@import 'styles/_variables.scss';
+
+.page-game {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: $mobile-nav-bar-height 24px 24px 24px;
+    box-sizing: border-box;
+  }
+
+  &__opponent-cards-wrap {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+  }
+
+  &__user-cards-block {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 24px;
+  }
+
+  &__user-cards-label {
+    color: $color-dusty-gray;
+    margin-bottom: 12px;
+  }
+
+  &__user-cards-wrap {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
+  }
+
+  &__opponent-move-holder {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $color-cod-gray-transparent;
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &__result-wrap {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__result-label-wrap {
+    margin-top: 18px;
+    margin-bottom: 24px;
+  }
+
+  &__continue-button {
+    align-self: flex-end;
+  }
+}

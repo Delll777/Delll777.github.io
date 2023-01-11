@@ -1,0 +1,42 @@
+@import 'styles/_variables.scss';
+
+.game-context-menu {
+  position: fixed;
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: $color-white;
+  border-radius: 9px;
+  transition: 0.2s all ease-in-out;
+  z-index: $zindex-popover;
+
+  &--open {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &--close {
+    visibility: hidden;
+    transform: scale(0.85);
+    opacity: 0;
+  }
+
+  &__info {
+    margin-top: 16px;
+  }
+
+  &__info-block {
+    font-weight: 600;
+    margin-bottom: 4px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__info-block-value {
+    font-weight: normal;
+  }
+}

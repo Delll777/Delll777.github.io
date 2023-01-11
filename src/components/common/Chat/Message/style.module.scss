@@ -1,0 +1,20 @@
+@import 'styles/_variables.scss';
+
+.message {
+  display: inline-block;
+  color: $color-white;
+  padding: 6px 12px 6px 12px;
+  max-width: 80%;
+
+  &--user {
+    align-self: flex-end;
+    background-color: $color-cod-gray;
+    border-radius: 14px 14px 0px 14px;
+  }
+
+  &--another-user {
+    align-self: flex-start;
+    background-color: $color-accent-purple;
+    border-radius: 0px 14px 14px 14px;
+  }
+}

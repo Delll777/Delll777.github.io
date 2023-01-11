@@ -1,0 +1,55 @@
+.dialogs-and-notifications-wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow-y: auto;
+
+  &__items-wrap {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    &--equal {
+      display: flex;
+      height: calc(50% - 16px);
+    }
+  }
+
+  &__dialogs-wrap {
+    margin-bottom: 16px;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0 0 8px 0;
+    padding: 0;
+  }
+
+  &__list {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__list-item {
+    margin-bottom: 8px;
+  }
+
+  &__list-item:last-child {
+    margin-bottom: 0;
+  }
+
+  &__notification-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

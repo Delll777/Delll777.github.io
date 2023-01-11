@@ -1,0 +1,94 @@
+@import 'styles/_variables.scss';
+
+.gp-controller {
+  width: 100%;
+  border-radius: 16px;
+  box-sizing: border-box;
+  padding: 16px;
+  border: 1px solid $color-mine-shaft-darker;
+  background-color: $color-cod-gray;
+
+  &__head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 36px;
+  }
+
+  &__status-message {
+    color: $color-white;
+    font-family: $font-inter;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  &__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__task-name {
+    color: $color-white;
+    font-weight: 600;
+  }
+
+  &__cards-selected {
+    font-weight: 600;
+  }
+
+  &__cards-selected-label {
+    color: $color-white;
+  }
+
+  &__cards-selected-numbers {
+    color: $color-gold-tips;
+  }
+
+  &__opponent-name {
+    color: $color-white;
+  }
+}
+
+.task-label {
+  text-align: left;
+  color: $color-white;
+
+  &__label {
+    font-family: $font-inter;
+    font-weight: 600;
+  }
+}
+
+.searching-label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__text {
+    color: $color-white;
+    margin-left: 8px;
+
+    &::after {
+      content: '';
+      animation: searching-dots 2.5s infinite;
+    }
+  }
+
+  @keyframes searching-dots {
+    33% {
+      content: ' .';
+    }
+    66% {
+      content: ' ..';
+    }
+    99% {
+      content: ' ...';
+    }
+  }
+}

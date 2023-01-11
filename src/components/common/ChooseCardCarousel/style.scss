@@ -1,0 +1,9 @@
+@import 'styles/_variables.scss';
+
+.choose-card-carousel__dot--choose-cards.carousel__dot--selected {
+  background-color: $color-white;
+}
+
+.choose-card-carousel__dot--opponent-choosing.carousel__dot--selected {
+  background-color: $color-white;
+}

@@ -1,0 +1,38 @@
+@import 'styles/_variables.scss';
+
+.button {
+  border-radius: 4px;
+  box-sizing: border-box;
+  padding: 6px 12px 6px 12px;
+  font-family: $font-inter;
+  border: none;
+
+  &--blue {
+    background-color: $color-accent-purple;
+    color: $color-white;
+  }
+
+  &--gray {
+    background-color: $color-gallery-darker;
+    color: $color-mine-shaft;
+  }
+
+  &--dark {
+    background-color: $color-mine-shaft-darker;
+    color: $color-white;
+  }
+
+  &--yellow {
+    background-color: $color-gold-tips;
+    color: $color-mine-shaft;
+  }
+
+  &--green {
+    background-color: $color-mountain-meadow;
+    color: $color-white;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

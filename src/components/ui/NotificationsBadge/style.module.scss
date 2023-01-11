@@ -1,0 +1,14 @@
+@import 'styles/_variables.scss';
+
+.notification-badge {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  color: $color-mine-shaft;
+  font-size: 8px;
+  line-height: 10px;
+  background-color: $color-gold-tips;
+}

@@ -1,0 +1,20 @@
+@import 'styles/_variables.scss';
+
+.label {
+  display: inline-block;
+  padding: 12px 20px 12px 20px;
+  border-radius: 9px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+
+  &--white {
+    background-color: $color-white;
+    color: $color-mine-shaft;
+  }
+
+  &--dark {
+    background-color: $color-mine-shaft-darker;
+    color: $color-white;
+  }
+}

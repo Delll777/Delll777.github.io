@@ -1,0 +1,29 @@
+@import 'styles/_variables.scss';
+@import 'styles/mixins/_box-shadow.scss';
+
+.nav-bar-mobile {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 0px 0px 16px 16px;
+  box-sizing: border-box;
+  @include box-shadow;
+
+  &--light {
+    background-color: $color-white;
+  }
+
+  &--dark {
+    background-color: $color-cod-gray;
+  }
+
+  &__open-chat-button {
+    &--hidden {
+      visibility: hidden;
+    }
+  }
+}

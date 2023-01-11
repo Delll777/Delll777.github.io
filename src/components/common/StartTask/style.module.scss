@@ -1,0 +1,59 @@
+@import 'styles/_variables.scss';
+
+.start-task {
+  z-index: 0;
+
+  &__slider-wrap {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 12px;
+  }
+
+  &__slider-control {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 8px;
+  }
+
+  &__info-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__label {
+    font-weight: 600;
+    margin-bottom: 2px;
+  }
+
+  &__left-col {
+    text-align: left;
+  }
+
+  &__right-col {
+    text-align: right;
+  }
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+
+  &:focus {
+    outline: none;
+  }
+
+  &__arrow-icon {
+    svg path {
+      fill: $color-white;
+    }
+  }
+}

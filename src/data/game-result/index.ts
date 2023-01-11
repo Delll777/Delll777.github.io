@@ -1,0 +1,7 @@
+export const becomeEcquainted = 'gameResult.becomeEcquainted'
+export const taskSuccess = 'gameResult.taskSuccess'
+export const taskFailed = 'gameResult.taskFailed'
+export const tryAgain = 'gameResult.tryAgain'
+export const tryAgainButtonLabel = 'gameResult.tryAgainButtonLabel'
+export const sessionTime = 'gameResult.sessionTime'
+export const changeTask = 'gameResult.changeTask'

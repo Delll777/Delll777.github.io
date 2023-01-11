@@ -1,0 +1,8 @@
+@import 'styles/_variables.scss';
+
+.chat-container {
+  background-color: $color-white;
+  box-sizing: border-box;
+  padding: 24px 24px 0 24px;
+  border-radius: 16px;
+}

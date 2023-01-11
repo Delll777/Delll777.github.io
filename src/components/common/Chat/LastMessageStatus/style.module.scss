@@ -1,0 +1,13 @@
+@import 'styles/_variables.scss';
+
+.last-message-status {
+  &__owner {
+    &--user {
+      color: $color-dusty-gray;
+    }
+
+    &--new {
+      color: $color-electric-violet;
+    }
+  }
+}

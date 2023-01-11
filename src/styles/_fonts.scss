@@ -1,0 +1,50 @@
+@import 'styles/_variables.scss';
+
+@font-face {
+  src: url('../fonts/TTNorms-Black.otf');
+  font-family: $font-tt-norms-name;
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('../fonts/TTNorms-BlackItalic.otf');
+  font-family: $font-tt-norms-name;
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  src: url('../fonts/TTNorms-Bold.otf');
+  font-family: $font-tt-norms-name;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('../fonts/TTNorms-BoldItalic.otf');
+  font-family: $font-tt-norms-name;
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  src: url('../fonts/TTNorms-Italic.otf');
+  font-family: $font-tt-norms-name;
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  src: url('../fonts/TTNorms-Light.otf');
+  font-family: $font-tt-norms-name;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('../fonts/TTNorms-Regular.otf');
+  font-family: $font-tt-norms-name;
+  font-weight: 400;
+  font-style: normal;
+}

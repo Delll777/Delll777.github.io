@@ -1,0 +1,60 @@
+@import 'styles/_variables.scss';
+
+.page-game-result {
+  &__container {
+    height: calc(100vh - #{$mobile-nav-bar-height});
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 32px 1fr 76px 60px;
+    grid-column-gap: 0px;
+    grid-row-gap: 16px;
+    padding: 12px 16px 24px 16px;
+    box-sizing: border-box;
+  }
+
+  &__ad {
+    width: 100%;
+    background-color: $color-mine-shaft-darker;
+    border-radius: 16px;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__status-message {
+    font-family: $font-inter;
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    color: $color-white;
+  }
+
+  &__try-again-label {
+    color: $color-gold-tips;
+    line-height: 20px;
+
+    &--green {
+      color: $color-mountain-meadow;
+    }
+  }
+
+  &__session-time {
+    color: $color-white;
+  }
+
+  &__buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

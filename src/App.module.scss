@@ -1,0 +1,14 @@
+@import 'styles/variables.scss';
+
+body {
+  width: 100%;
+  font-family: $font-inter;
+  color: $color-mine-shaft;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.App {
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+@import 'styles/_variables.scss';
+
+.choose-card-carousel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__carousel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__slider-wrap {
+    width: 100%;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid $color-mine-shaft-darker;
+    box-sizing: border-box;
+  }
+
+  &__dots-wrap {
+    height: 4px;
+    margin-top: 16px;
+  }
+
+  &__dot {
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+    background-color: $color-mine-shaft;
+    border: none;
+    padding: 0;
+    margin-right: 6px;
+
+    &:last-child {
+      margin-right: 0px;
+    }
+
+    &--start-task {
+      background-color: $color-mine-shaft !important;
+    }
+
+    &--waiting-opponent {
+      background-color: $color-mine-shaft !important;
+    }
+
+    &--selected {
+      background-color: $color-gold-tips !important;
+    }
+  }
+}

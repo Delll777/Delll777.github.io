@@ -1,0 +1,39 @@
+$color-gallery: #f0f0f0;
+$color-gallery-darker: #ececec;
+$color-cod-gray: #191919;
+$color-cod-gray-transparent: rgba(25, 25, 25, 0.8);
+$color-cod-gray-darker: #1a1a1a;
+$color-white: #ffffff;
+$color-black: #000000;
+$color-gold-tips: #e6c513;
+$color-mine-shaft: #363636;
+$color-mine-shaft-darker: #2d2d2d;
+$color-dusty-gray: #999999;
+$color-electric-violet: #9a00ff;
+$color-accent-purple: #7e42ff;
+$color-wild-sand: #f4f4f4;
+$color-mountain-meadow: #22b75d;
+$color-coral-red: #ff4242;
+
+$color-primary-button: $color-gold-tips;
+$color-secondary-button: $color-gallery;
+
+$color-default-background: #eeeeee;
+
+$font-tt-norms-name: 'TTnorms';
+$font-inter-name: 'Inter';
+
+$font-tt-norms: $font-tt-norms-name, sans-serif;
+$font-inter: $font-inter-name, sans-serif;
+
+$mobile-close-chat-height: 84px;
+$mobile-nav-bar-transitions-time: 0.5s;
+$mobile-nav-bar-height: 64px;
+
+$zindex-dropdown: 1000;
+$zindex-sticky: 1020;
+$zindex-fixed: 1030;
+$zindex-modal-backdrop: 1040;
+$zindex-modal: 1050;
+$zindex-popover: 1060;
+$zindex-tooltip: 1070;

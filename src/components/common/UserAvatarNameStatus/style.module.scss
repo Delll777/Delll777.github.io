@@ -1,0 +1,26 @@
+.user-avatar-name-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__avatar {
+    margin-right: 8px;
+  }
+
+  &__name-status-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__name {
+    &--primary {
+      font-weight: 600;
+    }
+
+    &--secondary {
+      font-size: 8px;
+      line-height: 10px;
+    }
+  }
+}

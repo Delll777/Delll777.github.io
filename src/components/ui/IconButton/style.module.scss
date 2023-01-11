@@ -1,0 +1,19 @@
+@import 'styles/_variables';
+
+.icon-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+
+  &--gray-color {
+    svg {
+      path {
+        fill: $color-dusty-gray;
+      }
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+}

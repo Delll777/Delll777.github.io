@@ -1,0 +1,18 @@
+@import 'styles/_variables.scss';
+
+.secondary-button {
+  display: inline-block;
+  background-color: $color-secondary-button;
+  border-radius: 4px;
+  border: none;
+  padding: 6px 12px 6px 12px;
+  cursor: pointer;
+  font-family: $font-inter;
+  font-size: 12px;
+  line-height: 15px;
+  color: $color-mine-shaft;
+
+  &:focus {
+    outline: none;
+  }
+}

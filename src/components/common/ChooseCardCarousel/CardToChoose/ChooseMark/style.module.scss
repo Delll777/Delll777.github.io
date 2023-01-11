@@ -1,0 +1,28 @@
+@import 'styles/_variables.scss';
+
+.choose-mark {
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  padding: 10.5px 7.5px 8.76px 7.5px;
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 32px;
+
+  &--selected {
+    background-color: $color-gold-tips;
+  }
+
+  &__icon {
+    fill: currentColor;
+    color: $color-dusty-gray;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    &--selected {
+      color: $color-white;
+    }
+  }
+}

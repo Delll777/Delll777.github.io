@@ -1,0 +1,25 @@
+@import 'styles/_variables.scss';
+
+.emblem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__logo {
+    margin-right: 8px;
+    font-size: 28px;
+  }
+
+  &__woc-text {
+    font-size: 18px;
+    fill: currentColor;
+
+    &--light {
+      color: $color-cod-gray-darker;
+    }
+
+    &--dark {
+      color: $color-white;
+    }
+  }
+}

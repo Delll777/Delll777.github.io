@@ -1,0 +1,23 @@
+@import 'styles/_variables.scss';
+
+.chat-text {
+  background-color: $color-gallery-darker;
+  border-radius: 14px;
+  border: none;
+  font-family: $font-inter;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 6px 12px 6px 12px;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    font-family: $font-inter;
+    font-size: 12px;
+    line-height: 15px;
+    color: $color-dusty-gray;
+  }
+}

@@ -1,0 +1,14 @@
+.sign-in-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  &__image {
+    margin-right: 16px;
+  }
+
+  &__name {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
